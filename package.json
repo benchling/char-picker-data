@@ -1,0 +1,20 @@
+{
+  "name": "unicode-chars",
+  "version": "1.0.0",
+  "description": "Exports goog.i18n.CharPickerData for non-closure use.",
+  "main": "index.js",
+  "scripts": {
+    "build": "java -jar vendor/compiler.jar --js src/index.js --js './vendor/closure-library/**.js' --only_closure_dependencies --closure_entry_point=bnch.CharPickerData --js_output_file lib/index.js",
+    "prerelease": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchling/unicode-chars.git"
+  },
+  "author": "Joshua Ma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/benchling/unicode-chars/issues"
+  },
+  "homepage": "https://github.com/benchling/unicode-chars#readme"
+}
