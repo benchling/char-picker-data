@@ -1,6 +1,6 @@
 {
   "name": "char-picker-data",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Exports goog.i18n.CharPickerData for non-closure use.",
   "main": "index.js",
   "scripts": {
