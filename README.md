@@ -8,5 +8,8 @@ var charPickerData = new CharPickerData();
 // charPickerData.categories
 // charPickerData.charList
 // charPickerData.subcategories
-charPickerData.toCharList(charPickerData.charList[0][0]);
+
+CharPickerData.helpers.toCharList(charPickerData.charList[0][0]);
+
+CharPickerData.helpers.toHexString(ch); // U+0001
 ```
