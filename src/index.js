@@ -14,7 +14,8 @@ bnch.CharPickerData.helpers = {
       return decompressor.toCharList(str);
     },
     toHexString: goog.i18n.uChar.toHexString,
-    toCharCode: goog.i18n.uChar.toCharCode
+    toCharCode: goog.i18n.uChar.toCharCode,
+    fromCharCode: goog.i18n.uChar.fromCharCode
 };
 
 goog.exportSymbol('bnch.CharPickerData', bnch.CharPickerData);
